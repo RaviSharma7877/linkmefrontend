@@ -88,7 +88,7 @@ function Navbar() {
         <div className={`${styles.xyz}`}>
           <div className={`${styles.header_img}`}>
             
-            <img src={imageUrl} alt="" />
+            <Image src={imageUrl} alt="img" />
           </div>
           <button
             onClick={toggleTheme}
@@ -114,7 +114,7 @@ function Navbar() {
           <div>
             
             <div className={`${styles.nav_logo}`}>
-              <Image src={smalllogo} width={20} alt="" />
+              <Image src={smalllogo} width={20} alt="img" />
               <span className={`${styles.nav_logo_name}`}>Link_Me</span>
             </div>
             <div className={`${styles.nav_list}`}>

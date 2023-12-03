@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import { LoadingBarContext } from "../context/LoadingBarContext";
 import Cookies from "js-cookie";
+import Image from 'next/image';
 
 
 function Profile() {
@@ -128,7 +129,7 @@ function Profile() {
       <h1>User Profile</h1>
       <div className={`${styles.profile_container}`}>
         <div className={`${styles.image_container}`}>
-          <img
+          <Image
             id="userImage"
             src={img}
             alt="User Image"

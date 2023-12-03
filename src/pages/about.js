@@ -9,10 +9,10 @@ function about() {
     <div className={`${styles.aboutcontainer}`}>
       <div>
       <div className={`${styles.aboutimg} `}>
-        <Image src={img} className={`border `}></Image>
+        <Image src={img} className={`border `} alt='img'></Image>
       </div>
       <div className={`${styles.aboutusdata}`}>
-        <h1>I'm Ravi</h1>
+        <h1>I`m Ravi</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum amet id, officia in repellendus corporis tempora qui ipsam voluptatibus enim officiis quia? Cum dolor exercitationem quidem voluptates distinctio sunt repellendus?</p>
       </div>
       </div>

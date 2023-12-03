@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-key */
 // ApplicationCard.js
 import React from 'react';
+import Image from 'next/image'
 import styles from '../styles/Home.module.css';// Import your styling
 
 const ActiveUsers = ({ id, appStatus, img, name,userStatus, contact, email, skills, cv, portfolio }) => {
@@ -8,7 +10,7 @@ const ActiveUsers = ({ id, appStatus, img, name,userStatus, contact, email, skil
     <div className={styles.applicationCard}>
       <div className={styles.imgdetails}>
         <div className={styles.img}>
-          <img src={img} alt="" />
+          <Image src={img} alt="img"/>
         </div>
         <div className={styles.userdetails}>
           <h2>{name}</h2>

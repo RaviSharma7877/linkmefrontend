@@ -1,4 +1,6 @@
+/* eslint-disable react/jsx-key */
 import React from 'react'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 
 const Applications = ({ id, appStatus, img, name,userStatus, contact, email, skills, cv, portfolio }) => {
@@ -6,7 +8,7 @@ const Applications = ({ id, appStatus, img, name,userStatus, contact, email, ski
         <div className={styles.applicationCard}>
           <div className={styles.imgdetails}>
             <div className={styles.img}>
-              <img src={img} alt="" />
+              <Image src={img} alt="img"/>
             </div>
             <div className={styles.userdetails}>
               <h2>{name}</h2>

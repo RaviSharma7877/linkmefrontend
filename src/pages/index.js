@@ -228,7 +228,7 @@ function login() {
               Sign up
             </button>
           </div>
-          <Image src={log} className={`${styles.image}`} alt="" />
+          <Image src={log} className={`${styles.image}`} alt="img" />
         </div>
         <div className={`${styles.panel} ${styles.right_panel}`}>
           <div className={`${styles.content}`}>
@@ -241,7 +241,7 @@ function login() {
               Sign in
             </button>
           </div>
-          <Image src={register} className={styles.image} alt="" />
+          <Image src={register} className={styles.image} alt="img" />
         </div>
       </div>
     </div>

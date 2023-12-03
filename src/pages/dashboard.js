@@ -408,7 +408,7 @@ function Dashboard() {
     <div className={styles.main}>
       <div className={styles.dashboardprofile}>
         <div className={styles.dashboarduserimg}>
-          <img src={userData.imageUrl} alt="User" />
+          <Image src={userData.imageUrl} alt="User" />
         </div>
         <div className={styles.dashboarduserdetails}>
           <div>
