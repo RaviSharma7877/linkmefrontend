@@ -5,7 +5,7 @@ import { useTheme } from "./hooks/ThemeContext";
 import Link from "next/link";
 import { SunIcon, MoonIcon } from "../icon";
 import Image from "next/image";
-import smalllogo from '../images/smalllogo.png'
+import smalllogo from '../images/logo.png'
 import Cookies from 'js-cookie';
 
 // ... (imports and other code)
@@ -87,10 +87,10 @@ function Navbar() {
           ></i>
         </div>
         <div className={`${styles.xyz}`}>
-          <div className={`${styles.header_img}`}>
+          {/* <div className={`${styles.header_img}`}>
             
             <img src={imageUrl} alt="img" />
-          </div>
+          </div> */}
           <button
             onClick={toggleTheme}
             className={`ml-3 flex items-center justify-center rounded-full p-1 ${
