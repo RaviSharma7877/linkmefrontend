@@ -44,7 +44,7 @@ function login() {
     try {
       setProgress(30);
 
-      const response = await fetch('http://link-me-backend.vercel.app/register', {
+      const response = await fetch('https://link-me-backend.vercel.app/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

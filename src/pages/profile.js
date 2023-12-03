@@ -35,7 +35,7 @@ function Profile() {
           "$1"
         );
 
-        const response = await fetch(`http://link-me-backend.vercel.app/users/${userid}`, {
+        const response = await fetch(`https://link-me-backend.vercel.app/users/${userid}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
