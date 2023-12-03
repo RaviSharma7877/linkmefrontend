@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from "../styles/Home.module.css"
 import Image from 'next/image'
@@ -9,7 +10,7 @@ function about() {
     <div className={`${styles.aboutcontainer}`}>
       <div>
       <div className={`${styles.aboutimg} `}>
-        <img src={img} className={`border `} alt='img'></Image>
+        <img src={img} className={`border `} alt='img' />
       </div>
       <div className={`${styles.aboutusdata}`}>
         <h1>I`m Ravi</h1>
