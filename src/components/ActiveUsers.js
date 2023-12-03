@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 // ApplicationCard.js
 import React from 'react';
@@ -10,7 +11,7 @@ const ActiveUsers = ({ id, appStatus, img, name,userStatus, contact, email, skil
     <div className={styles.applicationCard}>
       <div className={styles.imgdetails}>
         <div className={styles.img}>
-          <Image src={img} alt="img"/>
+          <img src={img} alt="img"/>
         </div>
         <div className={styles.userdetails}>
           <h2>{name}</h2>

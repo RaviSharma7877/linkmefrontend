@@ -9,7 +9,7 @@ function about() {
     <div className={`${styles.aboutcontainer}`}>
       <div>
       <div className={`${styles.aboutimg} `}>
-        <Image src={img} className={`border `} alt='img'></Image>
+        <img src={img} className={`border `} alt='img'></Image>
       </div>
       <div className={`${styles.aboutusdata}`}>
         <h1>I`m Ravi</h1>

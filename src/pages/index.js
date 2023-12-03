@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useEffect, useState ,useContext  } from 'react';
 import styles from "../styles/Home.module.css"
@@ -228,7 +229,7 @@ function login() {
               Sign up
             </button>
           </div>
-          <Image src={log} className={`${styles.image}`} alt="img" />
+          <img src={log} className={`${styles.image}`} alt="img" />
         </div>
         <div className={`${styles.panel} ${styles.right_panel}`}>
           <div className={`${styles.content}`}>
@@ -241,7 +242,7 @@ function login() {
               Sign in
             </button>
           </div>
-          <Image src={register} className={styles.image} alt="img" />
+          <img src={register} className={styles.image} alt="img" />
         </div>
       </div>
     </div>

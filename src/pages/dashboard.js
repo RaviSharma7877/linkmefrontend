@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // Dashboard.js
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState, useEffect, useContext } from "react";
@@ -408,7 +409,7 @@ function Dashboard() {
     <div className={styles.main}>
       <div className={styles.dashboardprofile}>
         <div className={styles.dashboarduserimg}>
-          <Image src={userData.imageUrl} alt="User" />
+          <img src={userData.imageUrl} alt="User" />
         </div>
         <div className={styles.dashboarduserdetails}>
           <div>

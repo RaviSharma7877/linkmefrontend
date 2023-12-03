@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useContext, useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import { LoadingBarContext } from "../context/LoadingBarContext";
@@ -129,7 +130,7 @@ function Profile() {
       <h1>User Profile</h1>
       <div className={`${styles.profile_container}`}>
         <div className={`${styles.image_container}`}>
-          <Image
+          <img
             id="userImage"
             src={img}
             alt="User Image"

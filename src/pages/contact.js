@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import React from 'react'
 import styles from "../styles/Home.module.css"
@@ -16,7 +17,7 @@ function contact() {
       <h1 className={`${styles.title}`}>Contact Me</h1>
       <div className={`${styles.contact_info_upper_container}`}>
         <div className={`${styles.contact_info_container}`}>
-          <Image
+          <img
             src={email}
             alt="Email icon"
             className={`${styles.icon} ${styles.contact_icon} ${styles.email_icon}`}
@@ -24,7 +25,7 @@ function contact() {
           <p><a href="mailto:sraa7877@gmail.com">sraa7877@gmail.com</a></p>
         </div>
         <div className={`${styles.contact_info_container}`}>
-          <Image
+          <img
             src={linkedin}
             alt="LinkedIn icon"
             className={`${styles.icon} ${styles.contact_icon}`}

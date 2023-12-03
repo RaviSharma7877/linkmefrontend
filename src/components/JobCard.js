@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // JobCard.js
 
 import React, { useState, useEffect } from "react";

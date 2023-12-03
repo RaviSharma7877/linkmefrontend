@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 import { useTheme } from "./hooks/ThemeContext";
@@ -88,7 +89,7 @@ function Navbar() {
         <div className={`${styles.xyz}`}>
           <div className={`${styles.header_img}`}>
             
-            <Image src={imageUrl} alt="img" />
+            <img src={imageUrl} alt="img" />
           </div>
           <button
             onClick={toggleTheme}
@@ -114,7 +115,7 @@ function Navbar() {
           <div>
             
             <div className={`${styles.nav_logo}`}>
-              <Image src={smalllogo} width={20} alt="img" />
+              <img src={smalllogo} width={20} alt="img" />
               <span className={`${styles.nav_logo_name}`}>Link_Me</span>
             </div>
             <div className={`${styles.nav_list}`}>
