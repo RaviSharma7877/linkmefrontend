@@ -115,7 +115,7 @@ function Navbar() {
           <div>
             
             <div className={`${styles.nav_logo}`}>
-              <img src={smalllogo} width={20} alt="img" />
+              <Image src={smalllogo} width={20} alt="img" />
               <span className={`${styles.nav_logo_name}`}>Link_Me</span>
             </div>
             <div className={`${styles.nav_list}`}>
